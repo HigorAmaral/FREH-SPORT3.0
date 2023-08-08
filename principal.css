@@ -191,3 +191,40 @@ ul.contact li a {
   line-height: 40px;
   text-align: center;
 }
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px;
+  margin-top: 10px;
+}
+
+#esporte1{
+  width: 100%;
+  height: 100%;
+  grid-area: 1;
+}
+#esporte2{
+  width: 100%;
+  height: 100%;
+  grid-area: 1;
+}
+#esporte3{
+  width: 100%;
+  height: 100%;
+  grid-area: 1;
+}
+#esporte4{
+  width: 100%;
+  height: 100%;
+  grid-area: 1;
+}
+#esporte5{
+  width: 100%;
+  height: 100%;
+  grid-area: 1;
+}
+#esporte6{
+  width: 100%;
+  height: 100%;
+  grid-area: 1;
+}

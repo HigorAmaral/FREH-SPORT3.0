@@ -57,14 +57,14 @@ p {
   width: 25%;
   background-color: #f1f1f1;
   padding-left: 20px;
-  height: 315vh;
+  height: 100%;
 }
+
 .polorightcolumn {
   float: right;
   width: 25%;
-  background-color: #f1f1f1;
   padding-left: 20px;
-  height: 420vh;
+  height: 100%;
 }
 
 .fakeimg {
@@ -100,23 +100,23 @@ p {
 
   .leftcolumn,
   .rightcolumn,
-  .polorightcolumn
-  img,
+  .polorightcolumn img,
   body,
   .footer,
   .notice,
   #col1,
   #col2,
-  #col3,#footer {
-      width: 100%;
-      padding: 0;
+  #col3,
+  #footer {
+    width: 100%;
+    padding: 0;
   }
 }
 
 @media (max-width: 400px) {
   .topnav a {
-      float: none;
-      width: 100%;
+    float: none;
+    width: 100%;
   }
 }
 
@@ -126,6 +126,7 @@ img {
   border-radius: 8px;
   margin: auto;
 }
+
 .company-details {
   overflow: hidden;
   padding: 3em 0em;
@@ -162,12 +163,12 @@ img {
 .copyright p {
   letter-spacing: 1px;
   font-size: 0.90em;
-  color:white;
+  color: white;
 }
 
 .copyright a {
   text-decoration: none;
-  color:white
+  color: white
 }
 
 ul.contact {
@@ -191,39 +192,51 @@ ul.contact li a {
   line-height: 40px;
   text-align: center;
 }
-.container{
+
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px;
+  grid-template-rows: 300px;
   margin-top: 10px;
+  gap: 5%;
 }
 
-#esporte1{
+.container img {
+  width: 100%;
+  height: 100%;
+}
+
+.esporte1 {
   width: 100%;
   height: 100%;
   grid-area: 1;
 }
-#esporte2{
+
+.esporte2 {
   width: 100%;
   height: 100%;
   grid-area: 1;
 }
-#esporte3{
+
+.esporte3 {
   width: 100%;
   height: 100%;
   grid-area: 1;
 }
-#esporte4{
+
+.esporte4 {
   width: 100%;
   height: 100%;
   grid-area: 1;
 }
-#esporte5{
+
+.esporte5 {
   width: 100%;
   height: 100%;
   grid-area: 1;
 }
-#esporte6{
+
+.esporte6 {
   width: 100%;
   height: 100%;
   grid-area: 1;

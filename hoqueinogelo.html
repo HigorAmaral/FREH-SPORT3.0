@@ -2,30 +2,49 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FREH Sport</title>
-    <link rel="stylesheet" href="principal.css">
-    <link rel="shortcut icon" href="images/freh.ico" type="favicon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FREH Sport</title>
+  <link rel="stylesheet" href="principal.css" />
+  <link rel="shortcut icon" href="images/freh.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="principal.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>FREH Sport</h1>
-    </header>
+  <header>
+    <nav class="nav-bar">
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="badminton.html" class="nav-link">Badminton</a></li>
+                <li class="nav-item"><a href="criquete.html" class="nav-link">Criquete</a></li>
+                <li class="nav-item"><a href="hoqueinogelo.html" class="nav-link">Hoquei No Gelo</a></li>
+                <li class="nav-item"><a href="lacrosse.html" class="nav-link">Lacrosse</a></li>
+                <li class="nav-item"><a href="poloaquatico.html" class="nav-link">Polo Aquatico</a></li>
+                <li class="nav-item"><a href="rugby.html" class="nav-link">Rugby</a></li>
+                <li class="nav-item"><a href="sambaqui.html" class="nav-link">Sambaqui</a></li>
+            </ul>
+        </div>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="poloaquatico.html">Polo aquático</a>
-        <a href="lacrosse.html">Lacrosse</a>
-        <a href="rugby.html">Rugby</a>
-        <a href="badminton.html">Badminton</a>
-        <a style="background-color: rgb(57, 59, 61);" href="hoqueinogelo.html">Hoquei no gelo</a>
-        <a href="criquete.html">Críquete</a>
-        <a href="sambaqui.html">Sambaqui</a>
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="images/menu_white_36dp.svg" alt=""></button>
+        </div>
     </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="badminton.html" class="nav-link">Badminton</a></li>
+            <li class="nav-item"><a href="criquete.html" class="nav-link">Criquete</a></li>
+            <li class="nav-item"><a href="hoqueinogelo.html" class="nav-link">Hoquei No Gelo</a></li>
+            <li class="nav-item"><a href="lacrosse.html" class="nav-link">Lacrosse</a></li>
+            <li class="nav-item"><a href="poloaquatico.html" class="nav-link">Polo Aquatico</a></li>
+            <li class="nav-item"><a href="rugby.html" class="nav-link">Rugby</a></li>
+            <li class="nav-item"><a href="sambaqui.html" class="nav-link">Sambaqui</a></li>
+        </ul>
+    </div>
+</header>
     <div class="center">
         <article>
             <div class="card">
@@ -171,17 +190,17 @@
 
             <div class="card">
                 <h3>Top 6 Esportes:</h3>
-                <a href="lacrosse.html"> <img src="images/lacrossepost2.jpg"></a>
+                <a href="lacrosse.html"> <img src="images/lacrossepost2.jpg" alt="imagem"></a>
                 <br>
-                <a href="rugby.html"><img src="images/rugbypsot.jpg"></a>
+                <a href="rugby.html"><img src="images/rugbypsot.jpg" alt="imagem"></a>
                 <br>
                 <a href="hoqueinogelo.html">
-                    <img src="images/hoqueipost.jpg"></a>
+                    <img src="images/hoqueipost.jpg" alt="imagem"></a>
                 <br>
-                <a href="poloaquatico.html"> <img src="images/toppolo.jpg"></a>
+                <a href="poloaquatico.html"> <img src="images/toppolo.jpg" alt="imagem"></a>
                 <br>
-                <a href="badminton.html"> <img src="images/badmintontop.jpg"></a>
-                <a href="criquete.html"> <img src="images/críquetetop.jpg"></a>
+                <a href="badminton.html"> <img src="images/badmintontop.jpg" alt="imagem"></a>
+                <a href="criquete.html"> <img src="images/críquetetop.jpg" alt="imagem"></a>
                 <div class="card">
                 </div>
                 <div class="card">
@@ -235,12 +254,52 @@
                         motivo deste esporte ser um´s do mais praticados em alguns determinados paises;
                     </p>
                     <p>A equipe FREH-Sports agradece a sua visita em nosso site!</p>
-                    <img src="images/finaltop.jpg">
+                    <img src="images/finaltop.jpg"alt="imagen">
                 </div>
             </div>
         </div>
     </aside>
     </div>
+    <footer>
+        <div id="footer_content">
+            <ul class="footer-list">
+                <li>
+                    <h3>Endereço</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Br 280 - Colégio Agrícola</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Araquari - Sc</a>
+              </li>
+            </ul>
+    
+            <ul class="footer-list">
+                <li>
+                    <h3>Autores</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Enrique Joaquim Cardoso</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Francisco Vargas Neto</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Higor dO Amaral Fritz</a>
+                </li>
+                <li>
+                  <a href="#" class="footer-link">Rafael Pilger</a>
+              </li>
+            </ul>
+        </div>
+        </div>
+    
+        <div id="footer_copyright">
+            2023 Todos os direitos são reservados
+        </div>
+        
+    
+    </footer>
 </body>
 
 </html>

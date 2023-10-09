@@ -2,20 +2,37 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FREH Sport</title>
-  <link rel="stylesheet" href="principal.css" />
-  <link rel="shortcut icon" href="images/freh.ico" type="favicon" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <script src="principal.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FREH Sport</title>
+    <link rel="stylesheet" href="principal.css" />
+    <link rel="shortcut icon" href="images/freh.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="principal.js"></script>
 </head>
 
 <body>
-  <header>
-    <nav class="nav-bar">
-        <div class="nav-list">
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="badminton.html" class="nav-link">Badminton</a></li>
+                    <li class="nav-item"><a href="criquete.html" class="nav-link">Criquete</a></li>
+                    <li class="nav-item"><a href="hoqueinogelo.html" class="nav-link">Hoquei No Gelo</a></li>
+                    <li class="nav-item"><a href="lacrosse.html" class="nav-link">Lacrosse</a></li>
+                    <li class="nav-item"><a href="poloaquatico.html" class="nav-link">Polo Aquatico</a></li>
+                    <li class="nav-item"><a href="rugby.html" class="nav-link">Rugby</a></li>
+                    <li class="nav-item"><a href="sambaqui.html" class="nav-link">Sambaqui</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="images/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
             <ul>
                 <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
                 <li class="nav-item"><a href="badminton.html" class="nav-link">Badminton</a></li>
@@ -27,24 +44,7 @@
                 <li class="nav-item"><a href="sambaqui.html" class="nav-link">Sambaqui</a></li>
             </ul>
         </div>
-
-        <div class="mobile-menu-icon">
-            <button onclick="menuShow()"><img class="icon" src="images/menu_white_36dp.svg" alt=""></button>
-        </div>
-    </nav>
-    <div class="mobile-menu">
-        <ul>
-            <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
-            <li class="nav-item"><a href="badminton.html" class="nav-link">Badminton</a></li>
-            <li class="nav-item"><a href="criquete.html" class="nav-link">Criquete</a></li>
-            <li class="nav-item"><a href="hoqueinogelo.html" class="nav-link">Hoquei No Gelo</a></li>
-            <li class="nav-item"><a href="lacrosse.html" class="nav-link">Lacrosse</a></li>
-            <li class="nav-item"><a href="poloaquatico.html" class="nav-link">Polo Aquatico</a></li>
-            <li class="nav-item"><a href="rugby.html" class="nav-link">Rugby</a></li>
-            <li class="nav-item"><a href="sambaqui.html" class="nav-link">Sambaqui</a></li>
-        </ul>
-    </div>
-</header>
+    </header>
     <div class="center">
         <article>
             <div class="card">
@@ -181,8 +181,8 @@
                     Jaime; Acessos:16 de abril de 2023.
                 </p>
             </div>
+   </article>
     </div>
-    </article>
     <aside>
         <div class="card">
             <h2>Site sobre esportes. </h2>
@@ -233,7 +233,7 @@
                     <p>
                         rafael@gmail.com.
                     </p>
-                    <h4>Cursando:</h4
+                    <h4>Cursando:</h4>
                     <p>
                         Enrique Joaquin Cardoso(Técnico em Informatica);
                     </p>
@@ -246,7 +246,6 @@
                     <p>
                         Rafael Pierlgero(Técnico em Informatica).
                     </p>
-                    </p>
                     <h4>Endereço:</h4>
                     <p>BR 280 Km Vinte e Sete 5200, Araquari, SC, 89245-000.</p>
                     <h4>Lema:</h4>
@@ -257,12 +256,11 @@
 
                     </p>
                     <p>A equipe FREH-Sports agradece a sua visita em nosso site!</p>
-                    <img src="images/finaltop.jpg"alt="imagen">
+                    <img src="images/finaltop.jpg" alt="imagen">
                 </div>
             </div>
         </div>
     </aside>
-    </div>
     <footer>
         <div id="footer_content">
             <ul class="footer-list">
@@ -273,10 +271,10 @@
                     <a href="#" class="footer-link">Br 280 - Colégio Agrícola</a>
                 </li>
                 <li>
-                  <a href="#" class="footer-link">Araquari - Sc</a>
-              </li>
+                    <a href="#" class="footer-link">Araquari - Sc</a>
+                </li>
             </ul>
-    
+
             <ul class="footer-list">
                 <li>
                     <h3>Autores</h3>
@@ -291,16 +289,14 @@
                     <a href="#" class="footer-link">Higor dO Amaral Fritz</a>
                 </li>
                 <li>
-                  <a href="#" class="footer-link">Rafael Pilger</a>
-              </li>
+                    <a href="#" class="footer-link">Rafael Pilger</a>
+                </li>
             </ul>
         </div>
-        </div>
-    
         <div id="footer_copyright">
             2023 Todos os direitos são reservados
         </div>
-    
+
     </footer>
 </body>
 

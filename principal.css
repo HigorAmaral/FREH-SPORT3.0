@@ -55,7 +55,7 @@ a:hover{
 }
 
 h1,
-h5 {
+figcaption, h5 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -75,6 +75,7 @@ p {
 .center {
   float: left;
   width: 70%;
+  height: 100%; 
 }
 
 article {
@@ -100,6 +101,10 @@ aside {
   background-color: white;
   padding: 20px;
 }
+section{
+  background-color: white;
+  padding: 20px;
+}
 
 .card-right {
   background-color: #61cb57;
@@ -119,29 +124,26 @@ aside {
   clear: both;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 540px) {
 
-  .leftcolumn,
-  .rightcolumn,
-  .polorightcolumn img,
-  body,
-  .footer,
-  .notice,
-  #col1,
-  #col2,
-  #col3,
-  #footer {
+  main,
+  article,
+  aside, footer , header, .card,
+  body{
     width: 100%;
     padding: 0;
+    margin: 0;
   }
 }
 
-@media (max-width: 400px) {
-  .topnav a {
+@media (max-width: 337px) {
+  .topnav a , main , aside, footer, header, article, .card, body{
     float: none;
     width: 100%;
+    margin: 0;
   }
 }
+
 
 img {
   text-align: center;

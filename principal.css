@@ -256,6 +256,130 @@ footer {
     width: 15vh;
   }
 }
+@media (max-width: 366px) {
+
+  .card {
+    width: 12vh;
+    padding: 20px 0 0 0;
+  }
+  .card img {
+    height: 50%;
+    width: 70%;
+  }
+  aside{
+    float: none;
+  inset-inline-start: center;
+
+  }
+  .center {
+    float: inline-start;
+    height: 100%; 
+} 
+article {
+  float: center;
+  width: 75%;
+  height: 100%;
+}
+}
+@media (max-width: 360px) {
+
+  .card {
+    width: 12vh;
+    padding: 20px 0 0 0;
+  }
+  .card img {
+    height: 50%;
+  }
+  main{
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 393px) {
+
+  .card {
+    width: 12vh;
+    padding: 20px 0 0 0;
+  }
+  .card img {
+    width: 50%;
+    height: 500%;
+  }
+  main, aside{
+    float: none;
+  }
+}
+@media (max-width: 412px) {
+
+  .card {
+    width: 12vh;
+    padding: 20px 0 0 0;
+  }
+  .card img {
+    height: 50%;
+    width: 70%;
+  }
+  aside{
+    float: none;
+  inset-inline-start: center;
+
+  }
+  .center {
+    float: inline-start;
+    height: 100%; 
+} 
+article {
+  float: left;
+  width: 75%;
+  height: 100%;
+}
+}
+@media (max-width: 414px) {
+
+  .card {
+    width: 12vh;
+    padding: 20px 0 0 0;
+  }
+  .card img {
+    height: 500%;
+  }
+  aside{
+    float: none;
+  }
+  .center {
+    float: inline-start;
+    height: 100%; 
+} 
+}
+@media (max-width: 425px) {
+
+  .card {
+    width: 100%;
+    padding: 20px 0 0 0;
+  }
+  .card img {
+    width: 80%;
+    height: 50%;
+  }
+  aside{
+    float: none;
+  }
+  .center {
+    float: inline-start;
+    height: 100%; 
+} 
+}
+@media (max-width: 540px) {
+
+  .card {
+    width: 12vh;
+    padding: 20px 0 0 0;
+  }
+  .card img {
+    width: 50%;
+    height: 50%;
+  }
+}
 
 @media (max-width:630px) {
   #footer_content {
@@ -277,6 +401,17 @@ footer {
   }
 
 }
+@media (max-width: 768px) {
+
+  .card {
+    width: 12vh;
+    padding: 20px 0 0 0;
+  }
+  .card img {
+    width: 80%;
+    height: 80%;
+  }
+}
 @media (max-width:1780px) {
 
   .card {
@@ -284,76 +419,9 @@ footer {
     padding: 20px 0 0 0;
   }
   .card img {
-    width: 100%;
     height: 100%;
   }
 }
-@media (max-width: 393px) {
-
-  .card {
-    width: 12vh;
-    padding: 20px 0 0 0;
-  }
-  .card img {
-    width: 50%;
-    height: 500%;
-  }
-}
-@media (max-width: 360px) {
-
-  .card {
-    width: 12vh;
-    padding: 20px 0 0 0;
-  }
-  .card img {
-    width: 50%;
-    height: 50%;
-  }
-  main{
-    width: 100%;
-    height: 100%;
-  }
-}
-@media (max-width: 412px) {
-
-  .card {
-    width: 12vh;
-    padding: 20px 0 0 0;
-  }
-  .card img {
-    width: 50%;
-    height: 500%;
-  }
-}
-@media (max-width: 540px) {
-
-  .card {
-    width: 12vh;
-    padding: 20px 0 0 0;
-  }
-  .card img {
-    width: 50%;
-    height: 500%;
-  }
-}
-
-@media (max-width: 375px) {
-
-  .topnav a , main , aside, footer, header, article, .card, body{
-    width: 100%;
-    padding: 0;
-  }
-}
-
-@media (max-width: 337px) {
-  .topnav a , main , aside, footer, header, article, .card, body{
-    float: none;
-    width: 100%;
-  }
-}
-
-
-
 @media screen and (max-width: 1000px) {
   .nav-bar {
       padding: 1.5rem 4rem;

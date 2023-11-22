@@ -1,44 +1,43 @@
 @charset "UTF-8";
-
-
+/*BASE DO SITE */
 body{
   height: 100%;
 }
-
+/*HEADER*/
 header {
   background-color:rgb(49, 47, 47);
   display: flex;
   height: 100%;
   width: 100%;
 }
-
+/*PALAVRAS DO FOOTER*/
 a:hover{
   background-color: #beb7b7;
   border-radius: 5px;
   padding: 10px;
 }
-
+/*AREA DA NAVEGAÇAO*/
 .nav-bar {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 6rem;
 }
-
+/*AREA DA NAVEGAÇAO*/
 .nav-list {
   display: flex;
   align-items: center;
 }
-
+/*LISTA DA AREA DE NAVEGAÇAO*/
 .nav-list ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
-
+/*ITEM DA AREA DE NAVEGAÇAO*/
 .nav-item {
   margin: 0 15px;
 }
-
+/*LINKS DA AREA DE NAVEGAÇAO*/
 .nav-link {
   text-decoration: none;
   font-size: 1.15rem;
@@ -47,70 +46,67 @@ a:hover{
   align-items: center;
   color: white;
 }
-
+/*MENU RESPONSIVEL*/
 .mobile-menu-icon {
   display: none;
 }
-
+/*MENU RESPONSIVEL*/
 .mobile-menu {
   display: none;
 }
-
-h1,
-figcaption, h5 {
+/*CENTRALIZAÇAO*/
+h1,figcaption, h5 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/*BASE DO SITE*/
 body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
-
-a,
-p {
+/*FONTE*/
+a,p {
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
+/*CENTRALIZAÇAO DO CONTEUDO*/
 .center {
   float: left;
   width: 70%;
   height: 100%; 
 }
-
+/*SEÇOES*/
 article {
   float: left;
   width: 75%;
   height: 100%;
 }
-
+/*LADO ESQUERDO*/
 aside {
   float: left;
   width: 25%;
   padding-left: 20px;
   height: 100%;
 }
-
+/*FALSA IMAGEM*/
 .fakeimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
 }
-
+/*CONTEUDO*/
 .card {
   background-color: white;
   padding: 20px;
 }
+/*SEÇOES*/
 section{
   background-color: white;
   padding: 20px;
 }
-
+/*SEÇOES DO LADO ESQUERDO*/
 .card-right {
-  background-color: #61cb57;
-  ;
+  background-color: #61cb57;;
   color: white;
   padding: 20px;
   margin-top: 50px;
@@ -119,13 +115,12 @@ section{
   text-align: center;
   margin: auto;
 }
-
-.row{
-
+/*INICIO*/
+.row{  
   display: table;
   clear: both;
 }
-
+/*IMAGEM*/
 img {
   text-align: center;
   display: block;
@@ -133,7 +128,7 @@ img {
   margin: auto;
 }
 
-
+/*CONTAINER DE IMAGENS*/
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -142,64 +137,63 @@ img {
   margin: 10px;
   gap: 5%;
 }
+/*CONTAINER DE DIVS*/
 .container div {
   border: 2px solid black;
   border-radius: 8px;
 }
-
+/*CONTENER DE IMAGENS*/
 .container img {
   width: 100%;
   height: 100%;
 }
-
+/*INICIO DO SITE*/
 .esporte1 {
   width: 100%;
   height: 100%;
   grid-area: 1;
 }
-
+/*INICIO DO SITE*/
 .esporte2 {
   width: 100%;
   height: 100%;
   grid-area: 1;
 }
-
+/*INICIO DO SITE*/
 .esporte3 {
   width: 100%;
   height: 100%;
   grid-area: 1;
 }
-
+/*INICIO DO SITE*/
 .esporte4 {
   width: 100%;
   height: 100%;
   grid-area: 1;
 }
-
+/*INICIO DO SITE*/
 .esporte5 {
   width: 100%;
   height: 100%;
   grid-area: 1;
 }
-
+/*INICIO DO SITE*/
 .esporte6 {
   width: 100%;
   height: 100%;
   grid-area: 1;
 }
-
-
-
+/*RODA PÉ*/
 footer {
   width: 100%;
   color: white;
   padding-top: 2%;
 }
-
+/*LINKS DO RODA PÉ*/
 .footer-link {
   text-decoration: none;
 }
-
+/*CONTATO DO RODA PÉ*/
 #footer_content {
   background-color: #343136;
   display: grid;
@@ -210,8 +204,7 @@ footer {
   width: calc(100% - 3rem - 4rem);
 }
 
-
-
+/*LIST DO RODA PÉ*/
 .footer-list {
   display: flex;
   flex-direction: column;
@@ -219,17 +212,17 @@ footer {
   list-style: none;
   align-items: center;
 }
-
+/*LINKS DO RODA PÉ*/
 .footer-list .footer-link {
   color: white;
   transition: all 0.4s;
 }
-
+/*ANIMACAO DO RODA PÉ*/
 .footer-list .footer-link:hover {
   color: #ffffff;
 }
 
-
+/*RODA PÉ*/
 #footer_copyright {
   display: flex;
   justify-content: center;
@@ -238,7 +231,7 @@ footer {
   padding: 1.5rem;
   font-weight: 100;
 }
-
+/*RESPONSIVIDADE*/
 @media (max-width:280px) {
 
   .card {
@@ -256,6 +249,7 @@ footer {
     width: 15vh;
   }
 }
+/*RESPONSIVIDADE*/
 @media (max-width: 366px) {
 
   .card {
@@ -281,6 +275,7 @@ article {
   height: 100%;
 }
 }
+/*RESPONSIVIDADE*/
 @media (max-width: 360px) {
 
   .card {
@@ -295,6 +290,7 @@ article {
     height: 100%;
   }
 }
+/*RESPONSIVIDADE*/
 @media (max-width: 360px) {
 
   .card {
@@ -320,6 +316,7 @@ article {
   height: 100%;
 }
 }
+/*RESPONSIVIDADE*/
 @media (max-width: 393px) {
 
   .card {
@@ -334,6 +331,7 @@ article {
     float: none;
   }
 }
+/*RESPONSIVIDADE*/
 @media (max-width: 412px) {
 
   .card {
@@ -359,6 +357,7 @@ article {
   height: 100%;
 }
 }
+/*RESPONSIVIDADE*/
 @media (max-width: 414px) {
 
   .card {
@@ -376,6 +375,7 @@ article {
     height: 100%; 
 } 
 }
+/*RESPONSIVIDADE*/
 @media (max-width: 425px) {
 
   .card {
@@ -394,6 +394,7 @@ article {
     height: 100%; 
 } 
 }
+/*RESPONSIVIDADE*/
 @media (max-width: 540px) {
 
   .card {
@@ -405,7 +406,7 @@ article {
     height: 50%;
   }
 }
-
+/*RESPONSIVIDADE*/
 @media (max-width:630px) {
   #footer_content {
     grid-template-columns: 1fr;
@@ -426,6 +427,7 @@ article {
   }
 
 }
+/*RESPONSIVIDADE*/
 @media (max-width: 768px) {
 
   .card {
@@ -437,6 +439,7 @@ article {
     height: 80%;
   }
 }
+/*RESPONSIVIDADE*/
 @media (max-width: 820px) {
 
   .card {
@@ -448,6 +451,7 @@ article {
     height: 80%;
   }
 }
+/*RESPONSIVIDADE*/
 @media (max-width:1780px) {
 
   .card {
@@ -458,6 +462,7 @@ article {
     height: 100%;
   }
 }
+/*RESPONSIVIDADE*/
 @media screen and (max-width: 1000px) {
   .nav-bar {
       padding: 1.5rem 4rem;
